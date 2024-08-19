@@ -1,0 +1,14 @@
+#head{
+  background-color: lightgreen;
+  display: flex;
+  justify-content: space-around;
+}
+
+#main{
+   background-color: aquamarine;
+   padding: 100px;
+}
+
+#foot{
+  background-color: grey;
+}

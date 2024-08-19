@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Second Grid</title>
+  <style>
+    .container{
+      display: grid;
+      grid-template-rows: 100px 100px 100px;
+      grid-template-columns: 1fr minmax(200px, 200px) 1fr;
+      row-gap: 1px;
+      column-gap: 5px;
+      grid-auto-rows: 100px;
+      overflow: scroll;
+    }
+
+    .cell{
+      background-color: rgb(186, 218, 237);
+      padding: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid black;
+      border-radius: 5px;
+    }
+
+    .item1{
+
+      background-color: rgb(230, 198, 230);
+      z-index: 2;
+    
+    }
+    .item5{
+  
+      background-color: rgb(202, 255, 237);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="cell item1">1</div>
+    <div class="cell">2</div>
+    <div class="cell">3</div>
+    <div class="cell">4</div>
+    <div class="cell item5">5</div>
+    <div class="cell">6.</div>
+</body>
+</html>

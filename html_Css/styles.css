@@ -1,0 +1,19 @@
+/* .my_input{
+
+}
+
+.username{
+
+}
+
+.password{
+
+} */
+
+[type] {
+  margin: 10px;
+}
+
+[type="text"] {
+  background-color: aquamarine;
+}
