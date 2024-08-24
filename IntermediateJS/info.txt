@@ -1,0 +1,22 @@
+Type Coercion 
+
+Memory Implicit Conversion : when needed js converts one data type to another
+
+String Conversion : Numbers and booleans can implicitly converted to strings. e.g.
++ is used to concatenate 2 strings and e.g. "this is " + 10 and here during concatenation 10 is number gets converted into string -> "this is 10" 
+
+Number Conversion : Strings and booleans can be converted into Numbers e.g. 15 - "5" here 5 will be converted into a number. 
+
+Strict Equality (stops type Coercion) === is Strict Equality
+
+
+Memory Allocation 
+
+Variables store memory addresses, and that memory addresses have the actual value.
+All the data types have same memory allocation process. Our variable is a pointer as it stores memory addresses to the objects (any data type)
+
+Stack: Primitive values (e.g., numbers, booleans) are stored directly in the stack. When a function is called, a new stack frame is created, and the function's parameters (if they are primitive types) are copied onto this stack frame.
+
+Heap: Objects, arrays, and functions are stored in the heap, and the stack holds references (pointers) to these objects. When an object is passed to a function, the reference to the object (not the object itself) is copied onto the stack.
+
+Garbage Collection : Removing the unused (without reference) memory in Heap.
