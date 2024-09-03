@@ -1,0 +1,10 @@
+= for primitives makes a copy of the value instead of pointing to the variable
+let c  = 20;
+let b = c ;
+
+now b will be 10 copy of c not pointing to c 
+if we 
+c = 45;
+now b will remain same i.e. 10
+
+But Objects are copied by reference. 

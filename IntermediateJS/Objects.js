@@ -1,4 +1,4 @@
-// Time Stamp : 45 : 00 
+
 let product = {
   company : 'mango',
   item_name : 'cotton T shirt',
