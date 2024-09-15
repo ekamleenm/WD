@@ -18,3 +18,5 @@ console.log(c ==b);
 
 console.log(a == b);
 console.log(a === b);
+// we compare  value of objects after stringyfying them but it sometimes becomes recursive stringgifying. 
+ 
