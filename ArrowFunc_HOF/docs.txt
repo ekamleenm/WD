@@ -1,0 +1,12 @@
+In short, the outer function doesn't stay on the call stack once it completes, 
+but its variables remain available until the inner function is done.
+
+Here's how it works:
+
+When the outer function finishes executing, it is removed from the call stack.
+If the inner function (closure) references any variables from the outer function’s scope,
+those variables are preserved in memory by the JavaScript engine. This happens because
+closures "capture" the variables they need, even if the function that created them has
+already finished executing. The outer function itself doesn't stay on the stack, but its 
+variables are kept alive in memory as long as the inner function (closure) is still accessible.
+
